@@ -25,6 +25,8 @@ Key steps performed in converting a time series in a stationary format are:-
 
 I've covered various aspects of dealing with time series data through the usage of ACF plots or autocorrelation function, PACF plots or partial autocorrelation function, AR or autoregressive, MA or Moving average, ARMA or Autoregressive Moving Average, SARIMA, Fb Prophet and LSTM.
 
+I've also explored the repurcussions of adding an additional variable to the existing time series data and verified whether does adding additional information or variable to the existing dataset improves the prediction.
+
 ## Prerequisites and Installation
 Time series analysis can be performed in R as well as Python using statsmodels modules.
 
@@ -42,11 +44,13 @@ pip install Prophet
 ```
 
 ## Contents
-[Predicting Google Trend Using Search Volume & Ads Spending](https://github.com/ShrutiL1396/Python/tree/main/Machine%20Learning%20Models) <br/>
-[Weather Forecast](https://github.com/ShrutiL1396/Python/tree/main/Visualisations)
+- [Predicting Google Trend Using Search Volume & Ads Spending](https://github.com/ShrutiL1396/Predictive_Analytics/blob/main/Mini_Project_Predictive_Analytics_Git.ipynb) <br/>
+    - Input file :- [Home Depot Google trends](https://github.com/ShrutiL1396/Predictive_Analytics/blob/main/homedepot_googletrends.csv) <br/>
+    - Additional variable file :- [Home Depot Ads Spend file](https://github.com/ShrutiL1396/Predictive_Analytics/blob/main/homedepot.adspend.csv) <br/>
+- [Weather Forecast](https://github.com/ShrutiL1396/Python/tree/main/Visualisations)
 
 ## Contact
 Shruti Shivaji Lanke - <br/>
 shrutilanke13@gmail.com or slanke1@student.gsu.edu <br/>
 Project Link - <br/>
-https://github.com/ShrutiL1396/Python
+https://github.com/ShrutiL1396/Predictive_Analytics
